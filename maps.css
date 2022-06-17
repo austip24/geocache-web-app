@@ -1,0 +1,67 @@
+html, body {
+	text-align: center;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	height: 100%;
+	width: 65%;
+	float: right;
+	margin: 0px 0px 0px auto;
+}
+
+#description {
+	text-align: center;
+	float: left;
+	width: 35%;
+	background-color: white;
+}
+
+#description h1 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#description p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#searchform {
+	margin: auto;
+	clear: both;
+}
+
+fieldset {
+	border: none;
+	font-size: 12pt;
+}
+
+.label {
+	display: inline-block;
+}
+
+
+.form_input {
+	margin: 10px 10px 10px 10px;
+	clear: both;
+}
+
+table {
+	width: 80%;
+	display: inline-block;
+	border-collapse: collapse;
+}
+th, td {
+	width: 25%;
+	padding: 10px;
+}
+
+.tr_data:hover {
+	background-color: #D3D3D3;
+}
+
+#data {
+	display: none;
+}
